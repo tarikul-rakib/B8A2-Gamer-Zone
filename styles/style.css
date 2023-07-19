@@ -389,6 +389,112 @@ footer p{
     flex-direction: column-reverse;
   }
 }
+@media screen and  (min-width:577px) and (max-width:992px) {
+  body{
+    padding: 20px;
+  }
+  .nav-container,
+  .banner-container
+  {
+    padding: 20px;
+  }
+  .banner2-container{
+    padding: 0px;
+    gap: 10px;
+  }
+  .logo{
+    justify-content: center;
+  }
+  .banner-semi-title{
+    margin: 0px;
+  }
+  .banner-image img,
+  .banner2-container img
+  {
+    width: 311px;
+    height: 350px;
+    padding: 0px;
+  }
+  .banner2-content h3{
+    margin: 0px;
+    padding: 0px;
+    width: 80%;
+    text-align: center;
+  }
+  .banner-container{
+    padding: 0% 50%;
+  }
+  .banner2-content p{
+    width: 100%;
+    text-align: center;
+  }
+  .banner2-content button{
+    margin-right: 75px;
+    margin-bottom: 40px;
+  }
+  .banner2-purpose{
+    margin: 0px;
+  }
+  .button2{
+    margin-left: 0px;
+
+  }
+  main{
+    padding: 100px 0px;
+    margin-bottom: 0px;
+  }
+  .play-container{
+    gap: 20px;
+    height: auto;
+    margin-top: 700px;
+  }
+  .play-content{
+    margin: 0px;
+    margin-left: 50px;
+    width: 600px;
+    text-align: center;
+  }
+  
+  .feature-container, .functionality, .icons, .rules {
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-bottom: 50px;
+  }
+  .play-image{
+    margin: 300px 0px 0px 40px;
+  }
+  .menus{
+    gap: 10px;
+  }
+  .banner-container{
+    padding: 50px 0px;
+  }
+  .banner2-container p{
+    text-align: right;
+  }
+  .banner2-container h3{
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    text-align: right;
+  }
+  .banner2-container img{
+    width: 50%;
+  }
+  
+  .video-items
+  {
+    flex-direction: column;
+  }
+  
+  .play-container
+  {
+    flex-direction: column-reverse;
+  }
+  figcaption{
+    text-align: center;
+  }
+}
 
 
 
