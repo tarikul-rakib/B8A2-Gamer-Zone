@@ -211,6 +211,39 @@ figcaption{
   width: 753px;
   text-align: right;
 }
+/* feature section style */
+.feature-section{
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.feature-container{
+  display: flex;
+  justify-content: center;
+  gap: 37px;
+  flex-wrap: wrap;
+  padding: 120px 240px;
+}
+.feature-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  /* border: 2px solid black; */
+  border-radius: 50px;
+  background: #FFF;
+  width: 243px;
+  height: 80px;
+  color: #0B0223;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: white;
+}
+.feature-list:hover{
+  border: 1px solid #FF42A5;
+  color: #FF42A5;
+}
+.feature-list img{
+  padding: 10px 10px 10px 0px;
+}
 
 
 
