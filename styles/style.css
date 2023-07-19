@@ -148,6 +148,69 @@ nav button{
   font-weight: 700;
   line-height: 45px;
 }
+/* main style */
+main{
+  margin-top: 120px;
+  margin-bottom: 120px;
+  padding: 0px 240px;
+}
+/* video section style */
+.video-section{
+  text-align: center;
+  padding: 120px 0px;
+}
+.video-section h3{
+  margin-bottom: 0px;
+}
+.video-section p{
+  margin: 16px 0px 48px 0px;
+  color: #534C64;
+}
+.video-items{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  
+}
+figure{
+  margin: 0px;
+}
+.video-items img{
+  width: 342px;
+  height: 400px;
+}
+.video-items img:hover{
+
+}
+figcaption{
+  text-align: left;
+  margin-top: 24px;
+  color: #534C64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+/* play section style */
+.play-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 280px;
+}
+.play-image .img1{
+  width: 634.833px;
+  height: 650px;  
+}
+.play-image .img2{
+  position: relative;
+  bottom: 270px;
+  right: 160px;
+}
+.play-content{
+  margin-left: 120px;
+  margin-top: 150px;
+  width: 753px;
+  text-align: right;
+}
 
 
 
