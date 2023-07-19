@@ -157,7 +157,6 @@ main{
 /* video section style */
 .video-section{
   text-align: center;
-  padding: 120px 0px;
 }
 .video-section h3{
   margin-bottom: 0px;
@@ -195,6 +194,9 @@ figcaption{
   display: flex;
   justify-content: space-between;
   gap: 280px;
+  max-height: 725px;
+
+  padding-top: 120px;
 }
 .play-image .img1{
   width: 634.833px;
@@ -244,6 +246,7 @@ figcaption{
 .feature-list img{
   padding: 10px 10px 10px 0px;
 }
+/* footer style */
 
 
 
