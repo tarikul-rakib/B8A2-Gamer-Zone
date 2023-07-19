@@ -301,7 +301,7 @@ footer p{
 }
 /* responsive design by media query */
 @media screen and  (max-width:576px) {
-  header, .banner-content{
+  body{
     padding: 20px;
   }
   .nav-container,
@@ -326,18 +326,54 @@ footer p{
     height: 350px;
     padding: 0px;
   }
-  ..banner2-content h3{
-    margin-top: 0px;
+  .banner2-content h3{
+    margin: 0px;
+    padding: 0px;
+    width: 80%;
+    text-align: center;
   }
   .banner-container{
     padding: 0% 50%;
   }
   .banner2-content p{
-    width: 70%;
+    width: 100%;
     text-align: center;
+  }
+  .banner2-content button{
+    margin-right: 75px;
+    margin-bottom: 40px;
+  }
+  .banner2-purpose{
+    margin: 0px;
   }
   .button2{
     margin-left: 0px;
+
+  }
+  main{
+    padding: 100px 0px;
+    margin-bottom: 0px;
+  }
+  .play-container{
+    gap: 20px;
+    height: auto;
+    margin-top: 700px;
+  }
+  .play-content{
+    margin: 0px;
+    width: 300px;
+    text-align: center;
+  }
+  .play-image .img2{
+    position: static;
+  }
+  .play-image img{
+    width: 70%;
+  }
+  .feature-container, .functionality, .icons, .rules {
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-bottom: 50px;
   }
   
   .nav-container,
