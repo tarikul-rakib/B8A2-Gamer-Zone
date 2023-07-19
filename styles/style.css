@@ -121,6 +121,7 @@ nav button{
   font-weight: 800;
   text-transform: uppercase;
 }
+
 /* banner2 style */
 .banner2-container{
   display: flex;
@@ -297,6 +298,60 @@ footer p{
   font-size: 16px;
   font-weight: 500px;
   text-align: center;
+}
+/* responsive design by media query */
+@media screen and  (max-width:576px) {
+  header, .banner-content{
+    padding: 20px;
+  }
+  .nav-container,
+  .banner-container
+  {
+    padding: 20px;
+  }
+  .banner2-container{
+    padding: 0px;
+    gap: 10px;
+  }
+  .logo{
+    justify-content: center;
+  }
+  .banner-semi-title{
+    margin: 0px;
+  }
+  .banner-image img,
+  .banner2-container img
+  {
+    width: 311px;
+    height: 350px;
+    padding: 0px;
+  }
+  ..banner2-content h3{
+    margin-top: 0px;
+  }
+  .banner-container{
+    padding: 0% 50%;
+  }
+  .banner2-content p{
+    width: 70%;
+    text-align: center;
+  }
+  .button2{
+    margin-left: 0px;
+  }
+  
+  .nav-container,
+  .menus,
+  .banner2-container,
+  .video-items
+  {
+    flex-direction: column;
+  }
+  .banner-container,
+  .play-container
+  {
+    flex-direction: column-reverse;
+  }
 }
 
 
