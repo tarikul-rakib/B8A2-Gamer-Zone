@@ -286,7 +286,7 @@ figcaption{
   padding: 10px 10px 10px 0px;
 }
 /* footer style */
-footer{
+.footer{
   background: #0B0223;
   height: 636px;
   padding: 120px 0px 130px 0px;
@@ -342,6 +342,9 @@ footer p{
 
 /* Small screens (phones) */
 @media screen and (max-width: 576px) {
+  main{
+    padding-top: 0px;
+  }
   body {
     padding: 20px;
   }
@@ -352,6 +355,27 @@ footer p{
   .nav-container,
   .banner-container {
     padding: 20px;
+  }
+  .banner-content .primary-btn{
+    padding: 15px 20px;
+  }
+  .banner-content p{
+    text-align: center;
+  }
+  .banner-content .button2{
+    padding: 15px 20px;
+    font-size: 1rem;
+  }
+  .banner-content .btn-groups{
+    text-align: center;
+  }
+  .banner-content .banner-semi-title{
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .banner-content .banner-title{
+    font-size: 3.4rem;
+    text-align: center;
   }
 
   .banner2-container {
@@ -413,27 +437,94 @@ footer p{
     padding: 40px 20px;
     margin-bottom: 0px;
   }
+  .video-items img{
+    width: 330px;
+    height: 300px;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
 
-  .play-container {
+  .play-container{
     gap: 20px;
-    height: auto;
-    margin-top: 100px;
+    max-height: auto;
+    padding-top: 0%;
+    margin-bottom: 100px;
   }
 
   .play-content {
     margin: 0px;
     width: 100%;
     text-align: center;
+    font-size: 35px;
+  }
+  .video-section .section-title{
+    font-size: 1.5rem;
+    margin-top: 0px
   }
 
   .play-image .img2 {
-    display: none;
+    /* display: none; */
+    width: 160px;
+    height: 180px;
+    left: 2px;
+    bottom: 120px;
+  } 
+  .play-content .section-title{
+    font-size: 2.4rem;
   }
 
-  .play-image img {
-    width: 100%;
+  .play-image .img1{
+    width: 80%;
+    height: auto;
+    margin-left: 80px;
   }
-
+  .feature-list{
+    gap: 0px;
+    width: auto;
+    height: auto;
+    font-size: smaller;
+  }
+  .feature-list img{
+    height: 20px;
+  }
+  .feature-container{
+    gap: 10px;
+  }
+  .feature-section{
+    height: auto;
+    width: auto;
+    margin-bottom: 70px;
+  }
+  .feature-title{
+    padding: 0%;
+    margin: 0%;
+    font-size: 10px;
+  }
+  .functionality{
+    gap: 30px;
+    margin: 0px 40px;
+  }
+  .rules{
+    gap: 50px;
+  }
+  .icons{
+    gap: 60px;
+    bottom: 0px;
+    margin: 80px 50px;
+  }
+  
+  .footer-logo-container{
+    padding-top: 0px;
+  }
+  .footer{
+    padding-top: 70px;
+    
+  }
+  .footer .section-details{
+    margin: 50px 0px;
+    font-size: 10px;
+  }
+  
   .feature-container,
   .functionality,
   .icons,
@@ -446,12 +537,14 @@ footer p{
   .nav-container,
   .menus,
   .banner2-container,
-  .video-items {
+  .video-items,
+  .play-container
+  {
     flex-direction: column;
   }
 
-  .banner-container,
-  .play-container {
+  .banner-container
+   {
     flex-direction: column-reverse;
   }
 }
@@ -461,15 +554,60 @@ footer p{
   body {
     padding: 30px;
   }
+  .menus{
+    gap: 10px;
+  }
+  .nav-container .logo{
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 40px;
+  }
+  .nav-container{
+    flex-direction: column;
+
+  }
 
   .nav-container,
   .banner-container {
     padding: 30px;
   }
+  /* banner style */
+  .banner-content{
+    padding: 0px;
+  }
+  .banner-content .primary-btn{
+    padding: 20px 41px;
+  }
+  .banner-content p{
+    text-align: center;
+  }
+  .banner-content .button2{
+    padding: 20px 41px;
+    font-size: 1rem;
+  }
+  .banner-content .btn-groups{
+    text-align: center;
+    gap: 40px;
+  }
+  .banner-content .banner-semi-title{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .banner-content .banner-title{
+    font-size: 4rem;
+    text-align: center;
+  }
+
+
+
+  /* banner style */
+  .video-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   .banner2-container {
     padding: 0px;
-    gap: 20px;
   }
 
   .banner-image img,
@@ -516,6 +654,7 @@ footer p{
     width: 100%;
     text-align: center;
   }
+  
 
   .play-image .img2 {
     display: none;
